@@ -1,0 +1,214 @@
+.back {
+    background-image: url('../../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure full coverage */
+    background-position: center;
+    height: 100%;
+    position: relative;
+  
+    /* Overlay Effect */
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Dark overlay (adjust opacity) */
+        backdrop-filter: blur(5px); /* Blur effect */
+        z-index: 1;
+    }
+}
+
+.toolbar {
+    position: fixed;
+    z-index: 2;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+/* Ensure text stays above the overlay */
+.banner {
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+    color: white; /* Ensures text is readable */
+    z-index: 2; /* Higher than overlay */
+  
+    h2 {
+        font-size: xxx-large;
+    }
+    p {
+        font-size: x-large;
+    }
+}
+
+.about-section, .menu-section, .drinks-section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.about-section h3, .menu-section h3, .drinks-section h3 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.video-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.text-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 1em;
+}
+
+/* Image Gallery for Menu & Drinks */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Background Color for Drinks Section */
+.drinks-section {
+    background: #f5ebe0;
+}
+
+.image-gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.image-gallery1 img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery1 img:hover {
+    transform: scale(1.05);
+}
+
+.contact-section {
+    background-color: #f8e7d2; /* Light caramel background */
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4d3319; /* Darker caramel shade */
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-content iframe {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.contact-info {
+    text-align: left;
+    max-width: 400px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact-info strong {
+    color: #4d3319; /* Same darker caramel shade */
+}
+
+.no-deco {
+    text-decoration: none;
+    color: #d2691e; /* Warm brown */
+    font-weight: bold;
+}
+
+.no-deco:hover {
+    text-decoration: underline;
+    color: #a0522d; /* Darker brown */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-info {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .image-gallery1 img {
+        width: 300px;
+    }
+}
+
+/* Responsive adjustment */
+@media only screen and (max-width: 600px) {
+    .bot {
+        bottom: 14em;
+    }
+}

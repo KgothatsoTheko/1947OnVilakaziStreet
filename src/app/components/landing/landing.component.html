@@ -1,0 +1,105 @@
+<div class="full-width flex column back" id="home">
+    <div class="space-between-center flex full-width toolbar light-caramel-bg">
+        <div class="border-box padding-5px half-width">
+            <img class="white-bg" src="../../../assets/logo-removebg-preview (3).png" alt="logo" width="30%">
+        </div>
+        <div class="half-width text-align-right">
+            <button mat-button [matMenuTriggerFor]="menu" class="white"><mat-icon>more_vert</mat-icon></button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="scrollTo('home')">Home</button>
+                <button mat-menu-item (click)="scrollTo('about')">About</button>
+                <button mat-menu-item (click)="scrollTo('menu')">Menu</button>
+                <button mat-menu-item (click)="scrollTo('drinks')">Drinks</button>
+                <button mat-menu-item (click)="scrollTo('gallery')">Gallery</button>
+                <button mat-menu-item (click)="scrollTo('contact')">Contact</button>
+            </mat-menu>
+        </div>
+    </div>
+    <div class="banner white bot">
+        <h2>Welcome to <br><span class="light-caramel">1947 on Vilakazi Street</span></h2>
+    </div>
+</div>
+<div class="about-section light-caramel-bg" id="about">
+    <h3 class="text-center">About Us</h3>
+    <div class="about-content">
+        <div class="video-container">
+            <video muted autoplay loop playsinline>
+                <source src="../../../assets/WhatsApp Video 2025-01-20 at 18.43.56_9c6153fa.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="text-container">
+            <p>
+                Welcome to <strong>1947 on Vilakazi Street</strong>, where history, culture, and flavour come together in the heart of Soweto. 
+                Nestled on the iconic Vilakazi Street, our restaurant is a tribute to the township’s **rich heritage and vibrant spirit**. 
+            </p>
+            <p>
+                Named after the pivotal year <strong>1947</strong>, we offer more than just a dining experience—we celebrate **community, tradition, and 
+                local flavours with a modern touch**. Every dish is crafted to honour Soweto’s legacy while creating new memories. 
+            </p>
+            <p>
+                Whether you're here for a **family gathering, authentic cuisine, or to soak in the energy** of Vilakazi Street, we promise an 
+                **unforgettable experience**. Join us as we celebrate the past, savour the present, and create a legacy—one plate at a time.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Menu Section -->
+<div class="menu-section" id="menu">
+    <h3 class="text-center">Our Menu</h3>
+    <div class="image-gallery">
+        <img src="../../../assets/menu-item-1.jpg" alt="Delicious Dish 1">
+        <img src="../../../assets/menu-item-2.jpg" alt="Delicious Dish 2">
+        <img src="../../../assets/menu-item-3.jpg" alt="Delicious Dish 3">
+        <img src="../../../assets/menu-item-4.jpg" alt="Delicious Dish 4">
+        <img src="../../../assets/menu-item-5.jpg" alt="Delicious Dish 5">
+    </div>
+</div>
+
+<!-- Drinks Section -->
+<div class="drinks-section light-caramel-bg" id="drinks">
+    <h3 class="text-center">Our Drinks</h3>
+    <div class="image-gallery">
+        <img src="../../../assets/drink-11.jpg" alt="Refreshing Drink 1">
+        <img src="../../../assets/drink-10.jpg" alt="Refreshing Drink 2">
+        <img src="../../../assets/drink-9.jpg" alt="Refreshing Drink 3">
+        <img src="../../../assets/drink-7.jpg" alt="Refreshing Drink 4">
+        <img src="../../../assets/drink-6.jpg" alt="Refreshing Drink 5">
+        <img src="../../../assets/drink-1.jpg" alt="Refreshing Drink 6">
+        <img src="../../../assets/drink-2.jpg" alt="Refreshing Drink 7">
+        <img src="../../../assets/drink-3.jpg" alt="Refreshing Drink 8">
+    </div>
+</div>
+
+<!-- gallery Section -->
+<div class="menu-section" id="gallery">
+    <h3 class="text-center">Gallery</h3>
+    <div class="image-gallery1">
+        <img src="../../../assets/gallery-1.jpg" alt="gallery 1">
+        <img src="../../../assets/gallery-2.jpg" alt="gallery 2">
+        <img src="../../../assets/gallery-3.jpg" alt="gallery 3">
+        <img src="../../../assets/gallery-4.jpg.png" alt="gallery 4">
+        <img src="../../../assets/gallery-5.png" alt="gallery 5">
+        <img src="../../../assets/gallery-6.png" alt="gallery 6">
+    </div>
+</div>
+
+<!-- Contact Us Section -->
+<div class="contact-section light-caramel-bg" id="contact">
+    <h3 class="text-center">Contact Us</h3>
+    <div class="contact-content">
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.5119474741246!2d27.903665798245758!3d-26.238675772223335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a7481455970d%3A0x2bc24e5916507df3!2s7156%20Vilakazi%20St%2C%20Orlando%20West%2C%20Soweto%2C%201804!5e0!3m2!1sen!2sza!4v1738364312906!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 011 258 4463</p>
+            <p><strong>Working Hours:</strong> Tue - Sun: 12:00 PM - 22:00 PM</p>
+            <p><strong>Email:</strong>  
+                <a class="no-deco" href="mailto:admin@1947vilakazistreet.co.za"> admin&#064;1947vilakazistreet.co.za</a>
+            </p>
+            <p><strong>Address:</strong>  
+                <a class="no-deco" href="https://www.google.com/maps/search/?api=1&query=7156+Vilakazi+Street%2C+Soweto%2C+Johannesburg%2C+Gauteng+1804%2C+South+Africa" target="_blank">
+                    7156 Vilakazi Street, Soweto, Johannesburg, Gauteng 1804, South Africa
+                </a>
+            </p></div>
+    </div>
+</div>
