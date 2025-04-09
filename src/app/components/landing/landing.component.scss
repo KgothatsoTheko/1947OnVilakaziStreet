@@ -1,5 +1,5 @@
 .back {
-    background-image: url('../../../assets/background.png');
+    background-image: url('../../../assets/1947-VILAKAZI-STREET.JPG');
     background-repeat: no-repeat;
     background-size: cover; /* Ensure full coverage */
     background-position: center;
@@ -19,6 +19,29 @@
         z-index: 1;
     }
 }
+
+.top-0 {
+    top: 0;
+    right: 10px;
+    color: #e6be89;
+    top: 240px;
+    text-align: right;
+}
+
+.top-01 {
+    top: 0;
+    right: 0;
+}
+
+#typewriter-text::after {
+    content: '|';
+    animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
 
 .toolbar {
     position: fixed;
@@ -58,7 +81,6 @@
 
 .about-content {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2em;
@@ -92,8 +114,8 @@
 /* Image Gallery for Menu & Drinks */
 .image-gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     gap: 1.5em;
     margin-top: 2em;
 }
@@ -113,6 +135,12 @@
 /* Background Color for Drinks Section */
 .drinks-section {
     background: #f5ebe0;
+}
+
+.container {
+    display: block;
+    height: 500px;
+    width: 100%;
 }
 
 .image-gallery1 {

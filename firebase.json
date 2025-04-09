@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/1947-on-vilakazi/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
