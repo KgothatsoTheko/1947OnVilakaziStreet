@@ -26,4 +26,8 @@ export class MenuComponent {
     }, 100); // small delay to ensure DOM is ready
   }
 
+  goToBooking(){
+    window.location.href = 'https://www.dineplan.com/restaurants/1947-on-vilakazi-street'
+  }
+
 }

@@ -28,8 +28,13 @@
     font-size: x-large;
 }
 
-.xx-large {
-    font-size: xx-large;
+.xxx-large {
+    font-size: xxx-large;
+}
+
+.noWidthHeight {
+    width: unset;
+    height: unset;
 }
 
 .top-0 {
@@ -41,7 +46,7 @@
 }
 
 .brown {
-    color: #d2691e;
+    color: #d2691e !important;
 }
 
 .typing::after {
@@ -277,6 +282,10 @@
 
     .showNone1 {
         display: none !important;
+    }
+
+    .make45w {
+        width: 45% !important;
     }
 
     .show {
