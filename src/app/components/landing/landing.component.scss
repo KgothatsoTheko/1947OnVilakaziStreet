@@ -1,5 +1,5 @@
 .back {
-    background-image: url('../../../assets/1947-VILAKAZI-STREET.JPG');
+    background-image: url('../../../assets/DSC06100.jpeg');
     background-repeat: no-repeat;
     background-size: cover; /* Ensure full coverage */
     background-position: center;
@@ -14,10 +14,22 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.5); /* Dark overlay (adjust opacity) */
-        backdrop-filter: blur(5px); /* Blur effect */
+        // background: rgba(0, 0, 0, 0.5); /* Dark overlay (adjust opacity) */
+        // backdrop-filter: blur(5px); /* Blur effect */
         z-index: 1;
     }
+}
+
+.hover1:hover {
+    color: #d2691e !important;
+}
+
+.x-large {
+    font-size: x-large;
+}
+
+.xx-large {
+    font-size: xx-large;
 }
 
 .top-0 {
@@ -28,20 +40,18 @@
     text-align: right;
 }
 
+.brown {
+    color: #d2691e;
+}
+
+.typing::after {
+  content: '|';
+}
+
 .top-01 {
     top: 0;
     right: 0;
 }
-
-#typewriter-text::after {
-    content: '|';
-    animation: blink 0.7s steps(1) infinite;
-  }
-  
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-  }
 
 .toolbar {
     position: fixed;
@@ -197,6 +207,10 @@
     max-width: 400px;
 }
 
+.none {
+    display: none;
+}
+
 .contact-info p {
     font-size: 16px;
     margin: 10px 0;
@@ -224,6 +238,20 @@
         align-items: center;
     }
 
+    .showNone {
+        display: none !important;
+    }
+
+    .banner {
+        h2 {
+            font-size: xx-large;
+        }
+    }
+
+    .make100w {
+        width: 100% !important;
+    }
+
     .about-content {
         flex-direction: column;
         align-items: center;
@@ -244,3 +272,16 @@
         bottom: 14em;
     }
 }
+
+@media (max-width: 877px) {
+
+    .showNone1 {
+        display: none !important;
+    }
+
+    .show {
+        display: contents !important;
+    }
+
+    
+    }

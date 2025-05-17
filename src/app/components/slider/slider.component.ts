@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-slider',
@@ -8,10 +8,24 @@ import { Component, Input } from '@angular/core';
   templateUrl: './slider.component.html',
   styleUrl: './slider.component.scss'
 })
-export class SliderComponent {
+export class SliderComponent implements OnInit, OnDestroy {
   @Input() slides: { src: string }[] = [];
 
   currentSlide = 0;
+  private intervalId: any;
+
+  ngOnInit() {
+    this.intervalId = setInterval(() => {
+      this.onNextClick();
+    }, 5000); // Change every 2 seconds
+  }
+
+  ngOnDestroy() {
+    // Clean up the interval when the component is destroyed
+    if (this.intervalId) {
+      clearInterval(this.intervalId);
+    }
+  }
 
   constructor() {}
 

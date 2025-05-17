@@ -3,6 +3,9 @@ import { MaterialModule } from '../../modules/material/material.module';
 import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { SliderComponent } from '../slider/slider.component';
+import { MatDialog } from '@angular/material/dialog';
+import { MenuComponent } from '../menu/menu.component';
+import { ViewMenuComponent } from '../view-menu/view-menu.component';
 
 @Component({
   selector: 'app-landing',
@@ -16,22 +19,40 @@ export class LandingComponent implements OnInit {
   private animationRunning = false;
 
   public slides = [
-    { src: "../../../assets/1947-VILAKAZI-STREET-23.JPG" },
-    { src: "../../../assets/1947-VILAKAZI-STREET-24.JPG" },
-    { src: "../../../assets/1947-VILAKAZI-STREET-37.JPG" },
-    { src: "../../../assets/1947-VILAKAZI-STREET-53.JPG" },
-    { src: "../../../assets/1947-VILAKAZI-STREET-55.JPG" },
-    { src: "../../../assets/1947-VILAKAZI-STREET-58.JPG" },
+    { src: "../../../assets/tumis-table-3.jpeg" },
+    { src: "../../../assets/DSC06145.jpeg" },
+    { src: "../../../assets/tables.jpeg" },
+    { src: "../../../assets/food.jpg" },
+    { src: "../../../assets/DSC05997-2.jpeg" },
+    { src: "../../../assets/food3.jpg" },
+    { src: "../../../assets/DSC06124.jpeg" },
+    { src: "../../../assets/DSC06085-2.jpeg" },
+    { src: "../../../assets/food1.jpg" },
+    { src: "../../../assets/DSC06060.jpeg" },
+    { src: "../../../assets/DSC06142-Enhanced-NR.jpeg"},
+    { src: "../../../assets/food4.jpg" },
+    { src: "../../../assets/DSC06181.jpeg" },
+    { src: "../../../assets/food2.jpg" },
+    { src: "../../../assets/DSC06010-2.jpeg" },
     { src: "../../../assets/1947-VILAKAZI-STREET-66.JPG" },
+    { src: "../../../assets/tumis-table.jpeg" },
+    { src: "../../../assets/food5.jpg" },
   ];
 
-  constructor(public router: Router) {
+  constructor(public router: Router, private dialog: MatDialog) {
     document.addEventListener("DOMContentLoaded", () => {
       const video = document.querySelector("video");
       if (video) {
           video.muted = true; // Force mute
       }
   });
+  }
+
+  openImageDialog(imageSrc: string): void {
+    this.dialog.open(ViewMenuComponent, {
+      data: { imageSrc },
+      panelClass: 'full-screen-dialog',
+    });
   }
 
   ngOnInit(): void {
@@ -42,7 +63,7 @@ export class LandingComponent implements OnInit {
         entries.forEach(entry => {
           if (entry.isIntersecting && !this.animationRunning) {
             this.animationRunning = true;
-            this.typeWriterEffect("1947 on Vilakazi Street", "typewriter-text", 100, () => {
+            this.typeWriterEffect("1947onvilakazistreet.", "typewriter-text", 100, () => {
               this.animationRunning = false;
             });
           }
@@ -82,6 +103,12 @@ export class LandingComponent implements OnInit {
 
   goToBooking(){
     window.location.href = 'https://www.dineplan.com/restaurants/1947-on-vilakazi-street'
+  }
+
+  openMenu() {
+    this.dialog.open(MenuComponent, {
+      disableClose: true,
+    })
   }
 
 }
