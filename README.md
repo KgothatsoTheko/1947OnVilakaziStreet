@@ -1,27 +1,52 @@
-# 1947OnVilakazi
+# 1947 On Vilakazi Street
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+Welcome to the official site for **1947 On Vilakazi Street** — an elegant and vibrant venue in the heart of Soweto, offering a unique blend of culture, cuisine, and creativity.
 
-## Development server
+🌐 **Live Site**: [nineteen47onvilakazistreet.web.app/landing](https://nineteen47onvilakazistreet.web.app/landing)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🏛️ About 1947
 
-## Code scaffolding
+1947 is more than a destination — it’s an experience. Located on the iconic Vilakazi Street, we offer:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- A beautifully curated space for events and gatherings
+- A celebration of local art, music, and culture
+- An immersive environment where heritage meets modern design
 
-## Build
+## 🚀 Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Responsive design for all devices
+- Modern, user-friendly layout
+- Smooth navigation experience
+- Easy-to-access information for visitors
 
-## Running unit tests
+## 🛠️ Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Frontend**: Angular, SCSS
+- **Framework**: Firebase Hosting (Web App), Dineplan
 
-## Running end-to-end tests
+## 📸 Screenshots
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![1](https://github.com/user-attachments/assets/2be86328-ec95-449a-8cd7-29b47a5fd4b1)
 
-## Further help
+![2](https://github.com/user-attachments/assets/8cb7f919-b97e-4b5f-bac9-3612983124c7)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![3](https://github.com/user-attachments/assets/b79eea65-99a2-407b-9759-7ec71f6c68b1)
+
+![4](https://github.com/user-attachments/assets/c31551e9-c434-476d-b0c9-404d5ab2ea4f)
+
+![5](https://github.com/user-attachments/assets/f501ab06-ed0d-4987-968e-43fbb9059943)
+
+![6](https://github.com/user-attachments/assets/5b3facb1-4426-47e9-92ec-ca5ea8ff3c99)
+
+![7](https://github.com/user-attachments/assets/45bf1cf3-b17a-435a-90ca-737c12a1e6bc)
+
+## 📬 Contact
+
+For bookings, events, or general inquiries:
+
+📧 Email: admin@1947vilakazistreet.com 
+📍 Location: 7156 Vilakazi Street, Soweto, Johannesburg, Gauteng 1804, South Africa
+
+---
+
+Thank you for visiting Nineteen47 on Vilakazi Street — where legacy meets lifestyle.
