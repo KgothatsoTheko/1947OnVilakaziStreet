@@ -26,19 +26,13 @@ Welcome to the official site for **1947 On Vilakazi Street** — an elegant and 
 
 ## 📸 Screenshots
 
-![1](https://github.com/user-attachments/assets/2be86328-ec95-449a-8cd7-29b47a5fd4b1)
+![Screenshot 2025-05-19 112427](https://github.com/user-attachments/assets/a03ff8c0-7dc3-464d-93fb-420797650923)
+![Screenshot 2025-05-19 112704](https://github.com/user-attachments/assets/c9c7b05c-38c3-4523-8e5d-b9359d1a1eb9)
+![Screenshot 2025-05-19 112728](https://github.com/user-attachments/assets/82106c1f-0610-4e2a-990a-41b0c1bd6914)
 
-![2](https://github.com/user-attachments/assets/8cb7f919-b97e-4b5f-bac9-3612983124c7)
-
-![3](https://github.com/user-attachments/assets/b79eea65-99a2-407b-9759-7ec71f6c68b1)
-
-![4](https://github.com/user-attachments/assets/c31551e9-c434-476d-b0c9-404d5ab2ea4f)
-
-![5](https://github.com/user-attachments/assets/f501ab06-ed0d-4987-968e-43fbb9059943)
-
-![6](https://github.com/user-attachments/assets/5b3facb1-4426-47e9-92ec-ca5ea8ff3c99)
-
-![7](https://github.com/user-attachments/assets/45bf1cf3-b17a-435a-90ca-737c12a1e6bc)
+![Screenshot 2025-05-19 112546](https://github.com/user-attachments/assets/c8f70280-b3df-421f-aa9a-e09d0bf71cf4)
+![Screenshot 2025-05-19 112641](https://github.com/user-attachments/assets/a607b413-c681-4be4-a120-47b130419876)
+![Screenshot 2025-05-19 112611](https://github.com/user-attachments/assets/6516f434-b161-4c15-ac73-adbd1a744e56)
 
 ## 📬 Contact
 
